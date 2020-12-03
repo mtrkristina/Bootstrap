@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/13624c4c63ecd7f.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.wrapper{
+    width: 25%;
+    margin: 2% auto 0 auto;
+    background-color: white;
+    opacity: 0.8;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 25%;
+    margin: 10% auto 0 auto;
+    background-color: white;
+    opacity: 0.8;
+    color: rgb(121, 118, 118);
+    text-align: center;
+    padding: 20px;
+
+}
+form{
+    text-align: left;
+    opacity: 1;
+}
+input{
+    position: relative;
+}
+input:invalid {
+    border: 3px solid rgb(189, 124, 124);
+}
+input[type="text"]:invalid::after{
+    position: absolute;
+    content: "Please enter correct username";
+    color:  rgb(189, 124, 124);
+}
+   input:valid {
+    border: 3px solid rgb(129, 182, 104);
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(37, 164, 214);
+    opacity: 1.1;
+    color: white;
+}
+form span{
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(37, 164, 214);
+}
+input + span {
+    position: relative;
+}
+  
+  input + span::before {
+    position: absolute;
+    left: 300px;
+    top: -30px;
+}
+  
+
+  
+input:invalid + span::before {
+    content: '✖';
+    color: red;
+}
+  
+input:valid + span::before {
+    content: '✓';
+    color: green;
+  }
