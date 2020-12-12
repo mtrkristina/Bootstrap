@@ -1,0 +1,25 @@
+nav{
+    background-color: rgb(37, 164, 214);
+}
+.nav-link{
+    font-size: 20px;
+}
+
+.right{
+    display: flex;
+    justify-content: end;
+}
+h1{
+    text-align: center;
+}
+.cards{
+    margin: 0 center;
+    justify-content: center;
+}
+.card{
+    height: 25rem;
+}
+.card-body span{
+    font-size: 12px;
+    text-align: right;
+}

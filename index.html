@@ -5,38 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+ 
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Teacher Book</h1>
-    <div class="wrapper">
-        
-        <form>
-            <div class="mb-6">
-              <label for="exampleInputEmail1" class="form-label">Username</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" required>
-              <span></span>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" required>
-              <span></span>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Remember me</label>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-            <span>Forgot password</span>
-          </form>
+  <div class="container">
+    <div class="title">
+      <h1>TEACHER BOOK</h1>
     </div>
-    
+    <div class="form">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Username</label>
+          <input type="text" placeholder="Enter username" class="mb-2 form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <span></span>
+          <small id="help" class="form-text">Please enter correct username.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" placeholder="Enter password" class="mb-2 form-control" id="exampleInputPassword1" required>
+          <span></span>
+          <small id="help" class="form-text">Please enter password</small>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+          <label class="form-check-label mb-2" for="exampleCheck1">Remember me</label>
+        </div>
+        <button type="submit" class="btn"><a href="news.html">Submit</a></button>
+        <p class="mt-2">Forgot Password</p>
+      </form>
+    </div>
+  </div>
 
 
-
-
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4fed137227.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 </body>
 </html>
