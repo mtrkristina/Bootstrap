@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+}
+nav{
+    background-color: rgb(37, 164, 214);
+}
+.nav-link{
+    font-size: 20px;
+    color:white;
+    opacity: 0.5;
+}
+.act{
+    color: white;
+    opacity: 1;
+}
+.title{
+    font-size: 25px;
+    font-weight: 300;
+}
+.title span{
+    color: rgb(37, 164, 214);
+    margin: 10px;
+    font-size: 18px;
+}
+table{
+    text-align: center;
+
+
+}
+td{
+    position: relative;
+}
+thead{
+    background-color: rgb(104, 184, 216);
+    height: 50px;
+    color: white;
+}
+table span{
+    background-color: rgb(37, 164, 214);
+    width: 15px;
+    height: 10px;
+    border-radius: 5px;
+    font-size: 8px;
+    position: absolute;
+    left: 90%;
+}
